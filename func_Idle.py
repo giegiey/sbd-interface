@@ -32,7 +32,7 @@ def State_Idle():
             print(datetime.now().strftime("%H:%M:%S.%f") + "(000 Msg) Idle : Get Weight")
             var_global.bGetWeight = True
 
-        # 001, 001 : Start to check the luggage process
+        # 001, 002 : Start to check the luggage process
         elif var_global.Com2 == 2: 
             var_global.bGetWeight = False
             var_global.iStep = 1

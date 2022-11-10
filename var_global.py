@@ -19,6 +19,7 @@ bBlinkGreenStop = False
 bBCheavyEnable = False
 bBCheavyFound = False
 bPrint = False
+startTime = ""
 
 BarCode1 = ""
 BarCode2 = ""

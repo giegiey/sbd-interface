@@ -22,13 +22,18 @@ IntrusionSen = 21
 ConREV = 12
 ConFWD = 6
 
-numRetries = 1
-
 # conveyor delay time in milisecond
 tBagMoveFWD = 1000
 tBagMoveBWD = 3000
 tBagStop = 1000
 tBagMoveCont = 10000
+
+#Check last sensor for clear to induct
+# in miliseconds
+sTimeout = 15000
+
+#Total to retry
+numRetries = 3
 
 ###########################################################################################
 ### USB PART
